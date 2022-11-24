@@ -1,0 +1,397 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+body {
+    background-color: #ececec;    
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.main-container{
+    background-color: #ececec;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container{
+    background-color: #bdcdfa;
+    display: block;
+    float: left;
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    max-width: 1198px;
+}
+
+header{
+    background: #fff;
+    display: block;
+    float: left;
+    padding: 20px;
+    width: 100%;
+    border-bottom: 1px solid #254159;
+}
+
+h1{
+    color: #126c9c;
+    font-size: 3.8rem;
+    margin-bottom: 20px;    
+}
+
+h2{
+    font-size: 2.2rem;
+    color: #126c9c;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 1.8rem;
+    color: #126c9c;
+    margin-bottom: 10px;
+}
+
+h4{
+    font-size: 1.6rem;
+    color: #126c9c;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+
+p{
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.soft{
+    margin-left: -70px;
+    font-size: medium;
+}
+
+
+.logo{
+    width: 100%;
+    max-width: 357px;
+    height: auto;
+}
+
+.img_notebook{
+	width: 100%;
+	/*vertical-align:central;
+	padding: 10px;*/
+}
+
+section{
+    background-color: #fff;
+    display:block;
+    float: left;
+    font-size: 1.5rem;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+}
+
+.sec_rec{
+    background-color: #f0edf5;
+}
+
+#texto1{
+    font-size:medium;
+    width: 50%;
+    float: left;
+    padding: 10px;    
+    border: #126c9c; 
+    box-sizing: 1px;
+    /*border-style: solid; */
+}
+
+#img1{
+    text-align: center;
+    width: 47%;
+    float: right;
+    padding: 1px;    
+    border: #126c9c; 
+    box-sizing: 1px;
+    /*border-style: solid; */
+}
+
+#texto2{
+    font-size:medium;
+    width: 100%;
+    float: left;
+    padding: 5px;    
+    border: #126c9c; 
+    box-sizing: 1px;
+    /*border-style: solid; */
+}
+
+article{
+    width: 100%;
+}
+
+.titulo_recursos{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #126c9c;
+    padding: 20px 10px 20px 10px;    
+}
+
+.card{
+    background-color: #FFF;
+    font-family: 'Barlow', sans-serif;
+    font-size: 10px;
+    font-weight: 300;    
+    text-align: center;
+    width: 350px;
+    height: 280px;
+    float: left;
+    padding: 10px;
+    margin: 13px;    
+    border-radius: 20px;
+    border: #126c9c; 
+    box-sizing: 1px;
+    /*border-style: solid; */
+}
+
+.tit_recursos{
+    font-size: 29px;
+    color: #126c9c;
+}
+
+footer{
+    /*margin-top: -85px;*/
+    background-color: #4476a1;  
+    color: #fff;
+    display: block;
+    float: left;
+    padding: 20px 5px 5px 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+footer small {
+    font-size: 80%;
+    display: block;
+}
+
+
+/* formulario */
+.art_cognito{
+    padding-left: 20px; 
+    width: 400px;
+}
+.cognito{
+    float: left; 
+    width: 95%; 
+    height: auto; 
+}
+.html .cog-abuse, :root:root:root:root:root .cog-abuse {
+    visibility: hidden !important;    
+}
+.html .cog-branding--minimal .cog-branding__powered, :root:root:root:root:root .cog-branding--minimal .cog-branding__powered {
+    visibility: hidden !important;
+}
+.cog-icon cog-i-cogicon{
+    visibility: hidden !important;
+}
+.html .cog-branding--minimal, html .cog-branding--minimal *, :root:root:root:root:root .cog-branding--minimal, :root:root:root:root:root .cog-branding--minimal * {
+    height: 1px !important;
+    visibility: none !important;
+}
+
+.html .cog-i-cogicon, :root:root:root:root:root .cog-i-cogicon {    
+    margin-top: -19em !important;
+    visibility: hidden !important;
+}
+
+.cog-label{
+    /*background-color: brown !important;*/
+    font-size: 16px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+.cog-form__content{
+    /*width: 500px !important;*/
+    background-color: #bdcdfa !important;
+}
+
+.cog-button__text{
+    font-size: 14px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+
+/* responsivo */
+
+@media (max-width: 875px){
+    p{
+        font-size: 1.6rem;
+        margin-bottom: 12px;
+        line-height: 1.4;
+    }
+    .main-container{
+        background-color: #ececec;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    #texto1{
+        font-size:medium;
+        width: 100%;
+        float: left;
+        padding: 10px;    
+        border: #126c9c; 
+        box-sizing: 1px;
+    }
+    #img1{
+        text-align:center;
+        width: 80%;
+        float:left;
+        padding: 5px;
+        margin-left: 6%;    
+        border: #126c9c; 
+        box-sizing: 1px;
+        /*border-style: solid; */
+    }
+    .titulo{
+        font-size: 29px;
+    }
+    .titulo_recursos{
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        color: #126c9c;
+        padding: 20px 10px 20px 10px;    
+    }
+   
+}
+
+@media screen and (max-width: 475px){
+    .main-container{
+        background-color: #ececec;
+        width: 99%;
+        padding: 5px;  
+        margin: 0 auto;      
+    }
+    .logo{
+        width: 80%;
+        /*max-width: 200px;*/
+        height: auto;
+    }
+    .ficou{
+        color: #126c9c;
+        font-size: 3.0rem;
+        margin-bottom: 20px;    
+    }
+    .art_cognito{
+        padding-left: 20px; 
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 375px){
+    .main-container{
+        background-color: #ececec;
+        width: 99%;
+        padding-top: 5px;
+        margin: 0 auto;
+        
+    }
+    .logo{
+        width: 85%;
+        padding-bottom: 3px;
+        height: auto;
+    }
+    .soft{
+        margin-left: -55px;
+        font-size: 13px;
+    }
+    .titulo{
+        font-size: 22px;
+    }
+    h2{
+        font-size: 2.0rem;
+        color: #126c9c;
+        margin-bottom: 20px;
+    }
+    h3{
+        font-size: 1.4rem;
+        color: #126c9c;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 1.4rem;
+        margin-bottom: 12px;
+        line-height: 1.4;
+    }
+    
+    section{
+        font-size: 1.5rem;
+        padding: 10px 10px 10px 10px;
+        width: 100%;
+    }
+    .titulo_recursos{
+        font-size: 22px;
+        font-weight: 500;
+        text-align: center;
+        color: #126c9c;
+        padding: 20px 10px 20px 10px;    
+    }
+    .card{
+        background-color: #FFF;
+        font-family: 'Barlow', sans-serif;
+        font-size: 10px;
+        font-weight: 300;    
+        text-align: center;
+        width: 99%;
+        height: auto;
+        float: left;
+        padding: 5px;
+        margin: 5px;    
+        border-radius: 20px;
+        border: #126c9c; 
+        box-sizing: 1px;
+        /*border-style: solid; */
+    }
+    .tit_recursos{
+        font-size: 22px;
+        color: #126c9c;
+    }
+    .container{
+        background-color: #bdcdfa;
+        padding-top: 15px;
+        padding-left: 2px;
+        width: 95%;
+    }
+    .cognito{
+        float: left; 
+        width: 95%; 
+        height: auto; 
+    }
+    footer{
+        padding: 10px 5px 5px 10px;
+        width: 95%;
+    }
+    .ficou{
+        color: #126c9c;
+        font-size: 2.8rem;
+        margin-bottom: 20px;    
+    }
+
+
+}
