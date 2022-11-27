@@ -9,52 +9,112 @@
     <title>AllenaSoft - Newsletter</title>
 
     <style>
-        *{
+        * {
             margin: 0 0 10px;
             padding: 0;
             border: 0 none;
         }
-        html{
+
+        html {
             font-size: 62.5%;
         }
-        div{
+
+        div {
             padding: 20px !important;
         }
-        
-        img{
+
+        img {
             max-width: 100% !important;
             height: auto;
         }
-        h1{
+
+        h1 {
             font-size: 2.9rem !important;
         }
-        h2{
+
+        h2 {
             font-size: 2.2rem !important;
         }
-        p{
+
+        p {
             font-size: 1.6rem !important;
         }
-        table{
-                max-width: 100% !important;
-            }
-        @media (max-width: 600px){
-            table{
+
+        table {
+            max-width: 100% !important;
+        }
+
+        .btn_span {
+            background-color: #133e99;
+            color: white;
+            display: block;
+            padding: 10px 5px 10px 5px;
+            margin: 0 auto;
+            font-size: 20px;
+            width: 400px;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 25px;
+            min-width: 50px;
+            height: 30px;
+            border-radius: 20px;
+        }
+
+        @media (max-width: 600px) {
+            table {
                 max-width: 98% !important;
                 min-width: 320px !important;
             }
-            div{
-            padding: 10px !important;
+
+            div {
+                padding: 10px !important;
             }
-            h1{
+
+            h1 {
                 font-size: 2.2rem !important;
             }
-            h2{
-            font-size: 1.7rem !important;
+
+            h2 {
+                font-size: 1.7rem !important;
             }
-            p{
-            font-size: 1.4rem !important;
+
+            p {
+                font-size: 1.4rem !important;
             }
-            
+
+            .btn_span {
+                background-color: #133e99;
+                color: white;
+                display: block;
+                padding: 15px 5px 7px;
+                margin: 0 auto;
+                font-size: 20px;
+                width: 300px;
+                text-align: center;
+                text-decoration: none;
+                margin-bottom: 25px;
+                min-width: 50px;
+                height: 30px;
+                border-radius: 20px;
+            }
+        }
+
+        @media (max-width: 450px) {
+            .btn_span {
+                background-color: #133e99;
+                color: white;
+                display: block;
+                padding: 10px 5px 7px;
+                margin: 0 auto;
+                font-size: 20px;
+                width: 240px;
+                text-align: center;
+                text-decoration: none;
+                margin-bottom: 25px;
+                min-width: 50px;
+                height: 25px;
+                border-radius: 20px;
+            }
         }
     </style>
 
@@ -67,8 +127,9 @@
         <tr>
             <td style="width: 10px;"></td>
             <td>
-                <a style="text-decoration: none;"  href="#">
-                <img style="border: 0; display:block; margin: 2%; " src="https://allenasoft.com.br/logo.fw.png" alt="AllenaSoft">
+                <a style="text-decoration: none;" href="#">
+                    <img style="border: 0; display:block; margin: 2%;" src="https://allenasoft.com.br/logo.fw.png"
+                        alt="AllenaSoft">
                 </a>
             </td>
             <td style="width: 10px;"></td>
@@ -77,12 +138,17 @@
             <td style="width: 10px;"></td>
             <td>
                 <div>
-                <h1 style="color: #385874; font-size: 30px;">Sistema para gerenciar clínicas de estética.</h1>
-                <a href="#"><img style="border: 0; display:block; margin-bottom:10px;" src="https://allenasoft.com.br/notebook.fw.png" width="500" alt="Allena_Soft"></a>
-                <h2 style="color: #385874;">Tudo em um só lugar</h2>
-                <p>Somos uma empresa que cria soluções para gestão de dados para profissionais de clinicas de estética com praticidade, agilidade, facilidade, eficiência e mobilidade.</p>
-                <p>Totalmente em nuvem, armazenamento Ilimitado com acesso em qualquer local e em qualquer horário. Com principal objetivo de entregar soluções em TI com baixo custo, porém, com um alto valor agregado em software.</p>
-                <p>Para negócios de estética e beleza que desejam melhorar sua gestão, agilizar seus agendamentos e crescer seus negócios com rapidez e controle.</p>
+                    <h1 style="color: #385874; font-size: 30px;">Sistema para gerenciar clínicas de estética.</h1>
+                    <a href="#"><img style="border: 0; display:block; margin: 0 auto; margin-bottom:15px; "
+                            src="https://allenasoft.com.br/notebook.fw.png" width="500" alt="Allena_Soft"></a>
+                    <h2 style="color: #385874;">Tudo em um só lugar</h2>
+                    <p>Somos uma empresa que cria soluções para gestão de dados para profissionais de clinicas de
+                        estética com praticidade, agilidade, facilidade, eficiência e mobilidade.</p>
+                    <p>Totalmente em nuvem, armazenamento Ilimitado com acesso em qualquer local e em qualquer horário.
+                        Com principal objetivo de entregar soluções em TI com baixo custo, porém, com um alto valor
+                        agregado em software.</p>
+                    <p>Para negócios de estética e beleza que desejam melhorar sua gestão, agilizar seus agendamentos e
+                        crescer seus negócios com rapidez e controle.</p>
                 </div>
 
             </td>
@@ -90,10 +156,9 @@
         </tr>
         <tr>
             <td colspan="3">
-                <span style="background-color: #133e99; color:white; display:block; padding: 15px 5px 7px; margin: 0 auto; 
-                font-size: 20px; width: 45%; text-align:center; text-decoration: none; margin-bottom: 20px; width: 300px;
-                height: 30px; border-radius: 10px; " >
-                <a style="color:white; font-size: 20px; text-decoration: none; border-radius: 10px; "  href="#">Conheça nosso site de gestão</a>
+                <span class="btn_span">
+                    <a style="color:white; font-size: clamp(1.65rem, 3.5vw, 2.5rem); text-decoration: none; border-radius: 10px; "
+                        href="#">Conheça nosso site de gestão</a>
                 </span>
             </td>
         </tr>
@@ -102,7 +167,7 @@
 
     </table>
 
-    
+
 </body>
 
 </html>

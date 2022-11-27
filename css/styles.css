@@ -2,35 +2,34 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
 
 body {
-    background-color: #ececec;    
-    font-family:Arial, Helvetica, sans-serif;
+    background-color: #ececec;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
 }
 
-.main-container{
+.main-container {
     background-color: #ececec;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-.container{
+.container {
     background-color: #bdcdfa;
-    display: block;
-    float: left;
+    /*float: left;*/
     padding: 20px;
     max-width: 100%;
     margin: 0 auto;
     max-width: 1198px;
 }
 
-header{
+header {
     background: #fff;
     display: block;
     float: left;
@@ -39,86 +38,90 @@ header{
     border-bottom: 1px solid #254159;
 }
 
-h1{
+h1 {
     color: #126c9c;
     font-size: 3.8rem;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
 }
 
-h2{
+h2 {
     font-size: 2.2rem;
     color: #126c9c;
     margin-bottom: 20px;
 }
 
-h3{
+h3 {
     font-size: 1.8rem;
     color: #126c9c;
     margin-bottom: 10px;
 }
 
-h4{
+h4 {
     font-size: 1.6rem;
     color: #126c9c;
     margin-bottom: 5px;
     padding-top: 10px;
 }
 
-p{
+p {
     font-size: 1.8rem;
     margin-bottom: 12px;
     line-height: 1.4;
 }
 
-.soft{
+.soft {
     margin-left: -70px;
     font-size: medium;
 }
-.logo{
+
+.logo {
     width: 100%;
     max-width: 357px;
     height: auto;
 }
 
-.img_notebook{
-	width: 100%;
-	/*vertical-align:central;
-	padding: 10px;*/
+.img_notebook {
+    width: 100%;
 }
-.container-banner{
+
+.container-banner {
     display: block;
     float: left;
     padding: 25px;
     max-width: 100%;
     margin: 0 auto;
-    
 }
-#banner{
+
+#banner {
     background-image: url('../imagem/banner.fw.png');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
     width: 100%;
-    height: 45vw;    
+    height: 45vw;
 }
-.legenda{
+
+.legenda {
     background-color: rgba(250 250, 250, 0.6);
     border-radius: 7px;
     padding: 5px;
-    margin-top: 25%;
+    margin-top: 20%;
     margin-bottom: 30px;
 }
-.legenda h4{
-    font-family:cursive;
+
+.legenda h4 {
+    font-family: cursive;
     font-size: clamp(0.9rem, 2.5vw, 2rem);
     padding: 5px;
 }
-.div-botao{
+
+.div-botao {
     margin-top: 4%;
     padding-bottom: 25%;
 }
-.botao{
-    background-color:rgb(255, 128, 82) ;
+
+.botao {
+    background-color: rgb(255, 128, 82);
     color: #fff;
     font-size: medium;
     font-weight: bold;
@@ -126,86 +129,88 @@ p{
     border-radius: 25px;
     padding: 12px;
 }
-section{
+
+section {
     background-color: #fff;
-    display:block;
+    display: block;
     float: left;
     font-size: 1.5rem;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 1px 10px;
     width: 100%;
 }
 
-.sec_rec{
+.sec_rec {
     background-color: #f0edf5;
 }
 
-#texto1{
-    font-size:medium;
+#sec_2 {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#texto1 {
+    font-size: medium;
     width: 50%;
     float: left;
-    padding: 10px;    
-    border: #126c9c; 
+    padding: 10px;
+    border: #126c9c;
     box-sizing: 1px;
     /*border-style: solid; */
 }
 
-#img1{
+#img1 {
     text-align: center;
     width: 47%;
     float: right;
-    padding: 1px;    
-    border: #126c9c; 
-    box-sizing: 1px;
-    /*border-style: solid; */
+    padding: 1px;
+    border: #126c9c;
 }
 
-#texto2{
-    font-size:medium;
+#texto2 {
+    font-size: medium;
     width: 100%;
     float: left;
-    padding: 5px;    
-    border: #126c9c; 
-    box-sizing: 1px;
-    /*border-style: solid; */
+    padding: 1px 5px 5px 5px;
+    /*border: 1px solid #126c9c; */
 }
 
-article{
+article {
     width: 100%;
 }
 
-.titulo_recursos{
+.titulo_recursos {
     font-size: 40px;
     font-weight: 600;
     text-align: center;
     color: #126c9c;
-    padding: 20px 10px 20px 10px;    
+    padding: 20px 10px 20px 10px;
 }
 
-.card{
+.card {
+    display: inline-block;
     background-color: #FFF;
     font-family: 'Barlow', sans-serif;
     font-size: 10px;
-    font-weight: 300;    
-    text-align: center;
+    font-weight: 300;
     width: 350px;
     height: 280px;
-    float: left;
+    vertical-align: middle;
+    margin: 0 auto;
     padding: 10px;
-    margin: 13px;    
+    margin: 13px;
     border-radius: 20px;
-    border: #126c9c; 
-    box-sizing: 1px;
-    /*border-style: solid; */
+    border: 1px solid #126c9c;
+
 }
 
-.tit_recursos{
+.tit_recursos {
     font-size: 29px;
     color: #126c9c;
 }
 
-footer{
+footer {
     /*margin-top: -85px;*/
-    background-color: #4476a1;  
+    background-color: #4476a1;
     color: #fff;
     display: block;
     float: left;
@@ -226,243 +231,312 @@ footer small {
 
 
 /* formulario */
-.art_cognito{
-    padding-left: 20px; 
+.art_cognito {
+    padding-top: 10px;
+    padding-left: 20px;
     width: 400px;
 }
-.cognito{
-    float: left; 
-    width: 95%; 
-    height: auto; 
-}
-.html .cog-abuse, :root:root:root:root:root .cog-abuse {
-    visibility: hidden !important;    
-}
-.html .cog-branding--minimal .cog-branding__powered, :root:root:root:root:root .cog-branding--minimal .cog-branding__powered {
-    visibility: hidden !important;
-}
-.cog-icon cog-i-cogicon{
-    visibility: hidden !important;
-}
-.html .cog-branding--minimal, html .cog-branding--minimal *, :root:root:root:root:root .cog-branding--minimal, :root:root:root:root:root .cog-branding--minimal * {
-    height: 1px !important;
-    visibility: none !important;
+
+.cognito {
+    float: left;
+    width: 95%;
+    height: auto;
 }
 
-.html .cog-i-cogicon, :root:root:root:root:root .cog-i-cogicon {    
+.html .cog-abuse,
+:root:root:root:root:root .cog-abuse {
+    visibility: hidden !important;
+}
+
+.html .cog-branding--minimal .cog-branding__powered,
+:root:root:root:root:root .cog-branding--minimal .cog-branding__powered {
+    visibility: hidden !important;
+}
+
+.cog-icon cog-i-cogicon {
+    visibility: hidden !important;
+}
+
+.html .cog-branding--minimal,
+html .cog-branding--minimal *,
+:root:root:root:root:root .cog-branding--minimal,
+:root:root:root:root:root .cog-branding--minimal * {
+    height: 1px !important;
+    visibility: none !important;
+    margin-bottom: -35px !important;
+}
+
+.html .cog-i-cogicon,
+:root:root:root:root:root .cog-i-cogicon {
     margin-top: -19em !important;
     visibility: hidden !important;
 }
 
-.cog-label{
+.cog-label {
     /*background-color: brown !important;*/
     font-size: 16px !important;
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 
-.cog-form__content{
+.cog-form__content {
     /*width: 500px !important;*/
     background-color: #bdcdfa !important;
 }
 
-.cog-button__text{
+.cog-button__text {
     font-size: 14px !important;
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+.cog-button--primary {
+    border-radius: 10px !important;
 }
 
 
 /* responsivo */
 
-@media (max-width: 875px){
-    p{
+@media (max-width: 875px) {
+    p {
         font-size: 1.6rem;
         margin-bottom: 12px;
         line-height: 1.4;
     }
-    .main-container{
+
+    .main-container {
         background-color: #ececec;
         max-width: 1200px;
         margin: 0 auto;
         padding: 10px;
     }
 
-    #texto1{
-        font-size:medium;
+    #texto1 {
+        font-size: medium;
         width: 100%;
         float: left;
-        padding: 10px;    
-        border: #126c9c; 
+        padding: 10px;
+        border: #126c9c;
         box-sizing: 1px;
     }
-    #img1{
-        text-align:center;
+
+    #img1 {
+        text-align: center;
         width: 80%;
-        float:left;
+        margin: 0 auto;
+        float: none;
         padding: 5px;
-        margin-left: 6%;    
-        border: #126c9c; 
-        box-sizing: 1px;
-        /*border-style: solid; */
+        margin-left: 6%;
+        border: #126c9c;
     }
-    .titulo{
+
+    .titulo {
         font-size: 29px;
     }
-    .titulo_recursos{
+
+    .titulo_recursos {
         font-size: 30px;
         font-weight: 600;
         text-align: center;
         color: #126c9c;
-        padding: 20px 10px 20px 10px;    
+        padding: 20px 10px 20px 10px;
     }
-    .legenda{
+
+    .art_cognito {
+        padding-top: 10px;
+        padding-left: 20px;
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .container-banner {
+        display: block;
+        float: left;
+        padding: 15px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .legenda {
+        padding: 5px;
         margin-top: 10%;
+        margin-bottom: 25px;
     }
-   
+
+    .botao {
+        background-color: rgb(255, 128, 82);
+        color: #fff;
+        font-size: small;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 25px;
+        padding: 10px;
+    }
+
 }
 
-@media screen and (max-width: 475px){
-    .main-container{
+@media screen and (max-width: 475px) {
+    .main-container {
         background-color: #ececec;
         width: 99%;
-        padding: 5px;  
-        margin: 0 auto;      
+        padding: 5px;
+        margin: 0 auto;
     }
-    .logo{
+
+    .logo {
         width: 80%;
         /*max-width: 200px;*/
         height: auto;
     }
-    .ficou{
+
+    .ficou {
         color: #126c9c;
         font-size: 3.0rem;
-        margin-bottom: 20px;    
+        margin-bottom: 20px;
     }
-    .art_cognito{
-        padding-left: 20px; 
+
+    .art_cognito {
+        padding-left: 20px;
         width: 100%;
     }
-    .legenda h4{
-        padding: 2px;
-        margin: 1px;
-    }
-    .legenda{
-        margin-bottom: 12px;
-    }
-    .container-banner{
-        padding: 2px;
 
+    .legenda {
+        padding: 5px;
+        margin-top: 5%;
+        margin-bottom: 15px;
     }
-    
-    .botao{
-        font-size: 1.2rem;
+
+    .botao {
+        background-color: rgb(255, 128, 82);
+        color: #fff;
+        font-size: smaller;
         font-weight: bold;
         text-decoration: none;
         border-radius: 25px;
         padding: 8px;
     }
 
+    .container-banner {
+        display: block;
+        float: left;
+        padding: 10px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
 
 }
 
-@media screen and (max-width: 375px){
-    .main-container{
+@media screen and (max-width: 375px) {
+    .main-container {
         background-color: #ececec;
         width: 99%;
         padding-top: 5px;
         margin: 0 auto;
-        
     }
-    .logo{
+
+    .logo {
         width: 85%;
         padding-bottom: 3px;
         height: auto;
     }
-    .soft{
+
+    .soft {
         margin-left: -55px;
         font-size: 13px;
     }
-    .titulo{
+
+    .titulo {
         font-size: 22px;
     }
-    h2{
+
+    h2 {
         font-size: 2.0rem;
         color: #126c9c;
         margin-bottom: 20px;
     }
-    h3{
+
+    h3 {
         font-size: 1.4rem;
         color: #126c9c;
         margin-bottom: 10px;
     }
-    p{
+
+    p {
         font-size: 1.4rem;
         margin-bottom: 12px;
         line-height: 1.4;
     }
-    
-    section{
+
+    section {
         font-size: 1.5rem;
         padding: 10px 10px 10px 10px;
         width: 100%;
     }
-    .titulo_recursos{
+
+    .titulo_recursos {
         font-size: 22px;
         font-weight: 500;
         text-align: center;
         color: #126c9c;
-        padding: 20px 10px 20px 10px;    
+        padding: 20px 10px 20px 10px;
     }
-    .card{
+
+    .card {
         background-color: #FFF;
         font-family: 'Barlow', sans-serif;
         font-size: 10px;
-        font-weight: 300;    
-        text-align: center;
+        font-weight: 300;
+        margin: 0 auto;
         width: 99%;
         height: auto;
-        float: left;
         padding: 5px;
-        margin: 5px;    
+        margin: 5px 5px 10px 0px;
         border-radius: 20px;
-        border: #126c9c; 
-        box-sizing: 1px;
-        /*border-style: solid; */
     }
-    .tit_recursos{
+
+    .tit_recursos {
         font-size: 22px;
         color: #126c9c;
     }
-    .container{
-        background-color: #bdcdfa;
-        padding-top: 15px;
-        padding-left: 2px;
-        width: 95%;
+
+    .container-banner {
+        display: block;
+        float: left;
+        padding: 3px;
+        max-width: 100%;
+        margin: 0 auto;
     }
-    .cognito{
-        float: left; 
-        width: 95%; 
-        height: auto; 
-    }
-    footer{
-        padding: 10px 5px 5px 10px;
-        width: 95%;
-    }
-    .ficou{
-        color: #126c9c;
-        font-size: 2.5rem;
-        margin-bottom: 20px;    
-    }
-    .legenda{
-        margin-top: 5%;
-    }
-    .botao{
-        font-size: .9rem;
+
+    .botao {
+        background-color: rgb(255, 128, 82);
+        color: #fff;
+        font-size:x-small ;
         font-weight: bold;
         text-decoration: none;
         border-radius: 25px;
-        padding: 6px;
+        padding: 5px;
+    }  
+
+    .container {}
+
+    .cognito {}
+
+    footer {
+        padding: 10px 5px 5px 10px;
+        width: 100%;
     }
 
+    .ficou {
+        color: #126c9c;
+        font-size: 2.45rem;
+        margin-bottom: 20px;
+    }
+
+    .art_cognito {}
+
+    .cog-button__text {
+        font-size: 12px !important;
+        font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    }
 
 
 }
